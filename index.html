@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in your favorite things!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="fav1">What is your favorite band?</label>
+            <input id="fav1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="fav2">What is your favorite drink?</label>
+            <input id="fav2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="fav3">What is your favorite movie?</label>
+            <input id="fav3" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Display!</button>
+        </form>
+      </div>
+
+      <div id="result-array">
+        <h1>Here's your results in list form</h1>
+        <ul>
+          <li><span class="fav2"></span></li>
+          <li><span class="fav1"></span></li>
+          <li><span class="fav3"></span></li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
